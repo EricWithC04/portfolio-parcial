@@ -1,3 +1,11 @@
+body {
+    background-image: url("backg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .margenes {
     margin: 0 16px;
 }
@@ -5,4 +13,11 @@
 .logo {
     height: 70px;
     width: 70px;
+}
+
+.lateral {
+    width: 20vw;
+}
+.txt {
+    width: 98%;
 }
