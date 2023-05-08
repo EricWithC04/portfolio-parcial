@@ -19,6 +19,10 @@ body {
     width: 98%;
 }
 
+.pie {
+    height: 16vh;
+}
+
 @media (max-width: 1000px) {
     * {
         font-size: 12px
