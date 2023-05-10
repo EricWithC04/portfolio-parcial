@@ -2,3 +2,23 @@
     height: 70px;
     width: 70px;
 }
+
+.backg {
+    height: 100vh;
+    background-image: url("backg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backg2 {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.formulario {
+    width: 36%;
+}
+
+.pie-pagina {
+    height: 16vh;
+}
