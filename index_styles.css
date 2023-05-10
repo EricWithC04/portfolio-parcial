@@ -15,9 +15,22 @@ body {
     width: 70px;
 }
 
-.lateral {
-    width: 20vw;
-}
 .txt {
     width: 98%;
+}
+
+.pie-pagina {
+    height: 16vh;
+}
+
+@media (max-width: 1000px) {
+    * {
+        font-size: 12px
+    }
+}
+
+@media (max-width: 600px) {
+    aside {
+        display: none;
+    }
 }

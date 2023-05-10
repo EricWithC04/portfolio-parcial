@@ -1,48 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./index_styles.css">
-</head>
-<body>
-    <header class="h-25 d-flex justify-content-between ps-4 pe-4 pt-2 pb-2 bg-light">
-        <div class="d-flex align-items-center">
-            <img class="logo" src="logo.png" alt="logo">
-            <h1 class="ps-3">Portafolio</h1>
-        </div>
-        <div class="w-25">
-            <nav class="navbar navbar-light w-100 h-100">
-                <ul class="navbar-nav flex-row justify-content-around w-100">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index_styles.css" />
+    <link rel="shortcut icon" href="./logo.png" />
+  </head>
+  <body>
+    <header
+      class="h-25 d-flex justify-content-between ps-4 pe-4 pt-2 pb-2 bg-light"
+    >
+      <div class="d-flex align-items-center">
+        <img class="logo" src="logo.png" alt="logo" />
+        <h1 class="ps-3">Portafolio</h1>
+      </div>
+      <div class="w-25">
+        <nav class="navbar navbar-light w-100 h-100">
+          <ul class="navbar-nav flex-row justify-content-around w-100">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="projects.html" class="nav-link">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <aside class="lateral bg-dark text-light">
+    <main class="d-flex w-100">
+      <aside class="bg-dark text-light po w-25">
         <article class="w-100 d-flex flex-column align-items-center ps-1">
-            <img class="w-75 border border-light rounded-3 mt-3 mb-3" src="perfil.jpg" alt="">
-            <h4>Eric A. Mercado</h4>
-            <div class="txt">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cum repellat nisi voluptatum aspernatur praesentium illum quam, nulla quas obcaecati quis eum dolore rem, doloremque architecto earum sit similique! Architecto?</p>
-            </div>
+          <img
+            class="w-75 border border-light rounded-3 mt-3 mb-3"
+            src="perfil.jpg"
+            alt=""
+          />
+          <h4>Eric A. Mercado</h4>
+          <div class="txt">
+            <p>
+              Soy un Desarrollador de Software certificado y con una amplia
+              experiencia en el sector. Trabajé en los proyectos más desafiantes
+              y marqué un antes y un después en la industria de la tecnologica.
+              Actualmente me encuentro en inactivo y en busqueda de una nueva
+              oportunidad que me permita revolucionar el mundo una vez más.
+            </p>
+          </div>
         </article>
-    </aside>
-    <main>
-        <div class="container">
-            
+      </aside>
+      <div class="container m-4">
+        <div class="row">
+          <div class="col-4">
+            <article>
+              <div class="card">
+                <img
+                  src="https://cdn-dgmbe.nitrocdn.com/cAhuVPtHHcDGOhdBuCBMhLCYfzXGSfzt/assets/images/optimized/rev-18bbd37/wp-content/uploads/2022/01/blog-gradu-2.jpg"
+                  class="card-img-top"
+                  alt="graduacion"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Graduado del IPF</h5>
+                  <p class="card-text">
+                    Estudié en el prestigioso e internacionalmente reconocido
+                    Instituto Politecnico Formosa, en el cual me gradué con
+                    honores. Fuí un alumno tan destacable que las empresas más
+                    grandes del mundo batallaron por ver quién se quedaba con
+                    mis servicios
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-4">
+            <article>
+              <div class="card">
+                <img
+                  src="https://img.asmedia.epimg.net/resizer/qbU3ekqHYi9JwHYsWk1zuyvv3kU=/1200x1200/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/T6YB3JQTN5N55IUNJHL33FC6YI.jpg"
+                  class="card-img-top"
+                  alt="premio turing"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Ganador del Premio Turing</h5>
+                  <p class="card-text">
+                    En el año 2023, fuí nombrado ganador del premio Turing,
+                    considerado como el nobel de la informatica. Obtuve este
+                    logro gracias a mis importantes aportes a la informatica que
+                    estuve realizando durante todos mis años de trayectoria
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-4">
+            <article>
+              <div class="card">
+                <img
+                  src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2020/04/28/15881085956978.jpg"
+                  class="card-img-top"
+                  alt="compañias"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Trayectoria en la Industria</h5>
+                  <p class="card-text">
+                    Pasé por las compañías tecnologicas más grandes del mundo
+                    como Google, Apple, Amazon, Meta, etc. trabajando en
+                    importantes proyectos en los cuales marqué huella en el
+                    rumbo de cada uno de estos.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
+      </div>
     </main>
-</body>
+    <footer
+      class="pie-pagina d-flex justify-content-center align-items-center bg-light"
+    >
+      <h3>®Eric Mercado, 2023</h3>
+    </footer>
+  </body>
 </html>

@@ -1,0 +1,41 @@
+.logo {
+    height: 70px;
+    width: 70px;
+}
+
+body {
+    background-image: url("backg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imagen-fondo {
+    height: 50vh;
+    background-image: url("https://comandoseo.es/wp-content/uploads/2017/11/desarrollo-web-diseno-web-marketing-digital-madrid-2-1024x682.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fondo-oscuro {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.fondo-oscuro h1 {
+    font-size: 40px;
+}
+
+.fondo-oscuro p {
+    font-size: 24px;
+}
+
+.pie-pagina {
+    height: 16vh;
+}
+
+.projects {
+    height: 70vh;
+}
