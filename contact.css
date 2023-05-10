@@ -22,3 +22,33 @@
 .pie-pagina {
     height: 16vh;
 }
+
+@media (max-width: 1280px) {
+    .formulario {
+        width: 64%;
+    }
+}
+
+@media (max-width: 960px) {
+    .formulario {
+        width: 64%;
+    }
+}
+
+@media (max-width: 720px) {
+    .formulario {
+        width: 72%;
+    }
+}
+
+@media (max-width: 600px) {
+    .formulario {
+        width: 84%;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+        display: none;
+    }   
+}
