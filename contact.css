@@ -4,7 +4,6 @@
 }
 
 .backg {
-    height: 100vh;
     background-image: url("backg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +25,12 @@
 @media (max-width: 1280px) {
     .formulario {
         width: 64%;
+    }
+}
+
+@media (max-width: 1000px) {
+    * {
+        font-size: 12px
     }
 }
 

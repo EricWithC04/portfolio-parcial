@@ -36,14 +36,24 @@ body {
     height: 16vh;
 }
 
-.card-height {
-    height: 65vh;
+.alto-card {
+    height: 98%;
+}
+
+.alto-imagen {
+    height: 65%;
 }
 
 @media (max-width: 1000px) {
     .pie-pagina {
         display: none;
     }   
+}
+
+@media (max-width: 1000px) {
+    * {
+        font-size: 12px
+    }
 }
 
 @media (max-width: 450px) {

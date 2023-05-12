@@ -19,6 +19,14 @@ body {
     width: 98%;
 }
 
+.alto-card {
+    height: 98%;
+}
+
+.alto-imagen {
+    height: 65%;
+}
+
 .pie-pagina {
     height: 16vh;
 }
